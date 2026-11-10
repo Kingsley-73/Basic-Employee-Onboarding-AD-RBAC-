@@ -1,0 +1,14 @@
+PROJECT: Active Directory Domain Controller Setup
+
+Domain name: NMG.com
+OUs Created:Finance, HR, IT, Operations
+
+Security groups created: Finance-Users, HR-Users, IT-Users, Operations-Users
+
+Purpose of each OU:
+-  Finance: This department represents, the Financial auditors, account managers and legal team.
+-  HR: This department represents the people operations and enablement team.
+-  IT: This department represent the helpdesk & security team.
+-  Operations: This department represents the leardership and martketing team.
+
+Date completed:November 6th, 2026
