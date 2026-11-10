@@ -1,0 +1,12 @@
+PROJECT: Active Directory Domain Controller Setup
+
+Domain name: NMG.com
+Domain Controller name:NMG-DC01
+Static IP: 192.168.64.2
+Date completed: November 5, 2026
+
+Validation:
+- Active Directory Users and Computers accessible
+- AD DS role installed
+- DCDIAG executed
+- Diagnostic results captured
