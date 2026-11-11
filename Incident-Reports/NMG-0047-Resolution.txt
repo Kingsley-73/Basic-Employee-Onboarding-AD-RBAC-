@@ -1,8 +1,17 @@
-# Role-Based Access Control (RBAC) Structure
+1. Jane Cooper user identity is in the Operations Organizational Unit
+2. I found that Jane was in Operations OU, but she is supposed to be in the HR OU
+3. Jane Cooper is currently a member of Operations-user. She should be a member of: HR
 
-| Department | Organizational Unit (OU) | Security Group Name | Assigned Users (Usernames) | Access Level / Permissions |
-| :--- | :--- | :--- | :--- | :--- |
-| Finance | OU=Finance,DC=NMG,DC=com | Finance-Users | dchen, kmills, rhayes, lpark | Access to Finance files, payroll systems, and departmental share drives |
-| HR | OU=HR,DC=NMG,DC=com | HR-Users | storres, jwhitfield, mgrant, jcooper | Access to employee records, payroll systems, benefits portal, and onboarding documentation |
-| IT | OU=IT,DC=NMG,DC=com | IT-Users | mjohnson, ppatel, tbrooks, acoleman | Domain administration, service desk systems, and core network configuration access |
-| Operations | OU=Operations,DC=NMG,DC=com | Operations-Users | bfoster, crivera, nross | Access to facility controls, scheduling applications, and logistics shared folders |
+Ticket number: NMG-0047
+Affected user: Jane Cooper (jcooper@NMG.com)
+Issue reported: Unable to access HR shared resources. Desktop policies and mapped drives differ from teammates.
+
+Root cause:After investigation, It came to light that Jane Cooper was under the wrong Organizational Unit of Operations-Users instead of HR-Users.
+
+Fix applied: After discovering the root cause, the appropriate fix was to move Jane Cooper to the right and original department she belonged "HR".
+
+Verification: Upon completion, I verified that Jane Cooper's access has been restored and that she can now access the same resources as her team members.
+
+Date resolved: November 6th,2026
+
+Resolved by: Kingsley Raji
