@@ -1,16 +1,14 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-• The problem in this project was related to a fictional company called Northstar Medical Group. 
-  They are a fast growing company who delegated their Identity Lifecycle workflow to a third-party MSP. 
-  In the beginning this was fine. But as they grew the issues began to show. 
-  They had NO RBAC policy in place. Users were assigned access AD-HOC. There was NO Audit trails. And HIPAA Risks.
+- This project involved a fictional company, Northstar Medical Group, which outsourced its Identity Lifecycle workflow to a third-party Managed Service Provider (MSP).
+- As the company grew, weaknesses emerged: no formal RBAC policy, ad-hoc user access assignments, missing audit trails, and potential HIPAA compliance risks.
 
 ## Solution Overview
-• The solution was to build out a basic employee onboarding pipeline in active directory. 
-  I set up the RBAC matrix and ensured users were given access ONLY according to their role. 
-  I also simulated a mock ticket where a user was provisioned the incorrect level of access!
+- Built a basic employee onboarding pipeline in Active Directory.
+- Created an RBAC matrix to ensure users received access based on their specific roles.
 
+Simulated a service ticket involving a user provisioned with an incorrect access level.
 ## Video Walkthrough
 In Progress
 
@@ -31,7 +29,8 @@ In Progress
 
 ## Key Accomplishments
 * Built the NMG.com Active Directory domain from scratch.
-* Solved a mock ticket where a user was given the incorrect accesse.
-* I fully documented my steps end-to-end.
-
+* Established a structured departmental OU hierarchy.
+* Resolved a simulated access-provisioning ticket involving incorrect user permissions.
+* Documented the implementation process from start to finish.
+* Improved user organization and established a foundation for consistent identity and access management.
 
