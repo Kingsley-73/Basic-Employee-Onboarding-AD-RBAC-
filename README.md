@@ -1,13 +1,20 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-[Provide 3 to 5 sentences describing what was broken at Northstar Medical Group. Mention the MSP mismanagement, lack of structure, manual processes, and HIPAA risks that existed before your project.]
+1. The existing Managed Service Provider (MSP) arrangement appeared suitable on paper but was not delivering the expected operational effectiveness in practice.
+2. Northstar's Active Directory environment was disorganized, with inconsistent user and organizational unit management.
+3. Many administrative tasks were performed manually, while access permissions were inconsistently assigned and managed.
+4. These weaknesses created potential security, operational, and HIPAA compliance risks, particularly around access control, user account management, and the protection of sensitive information.
 
 ## Solution Overview
-[Provide 4 to 6 sentences describing what you built and how it solved the problem. Cover the new domain creation, the structural OU design, the security groups, the flat RBAC model, and how user provisioning was secured.]
+1. Following the initial assessment, I deployed Windows Server and established the NMG.com Active Directory domain to create a centralized foundation for identity and access management.
+2. Addressed the lack of a structured Organizational Unit (OU).
+3. Created and organized departmental Organizational Units, established security groups, and configured user accounts within the appropriate departments.
+4. Verified user account details, group memberships, and organizational placement to improve accuracy and consistency across the directory.
+5. Established a more structured approach to identity and access management, helping reduce security and potential HIPAA compliance risks associated with inconsistent access controls and user administration.
 
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+In Progress
 
 ## Tools Used
 * Windows Server
@@ -25,9 +32,9 @@
 * Day 5: Documentation and case study packaging
 
 ## Key Accomplishments
-* Built NMG.com domain from scratch
-* [Add your second key accomplishment here]
-* [Add your third key accomplishment here]
+* Built the NMG.com Active Directory domain from scratch.
+* Established a structured departmental OU.
+* Improved user organization and laid the foundation for more consistent identity and access management.
 
 
 
