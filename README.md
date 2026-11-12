@@ -7,8 +7,8 @@
 ## Solution Overview
 - Built a basic employee onboarding pipeline in Active Directory.
 - Created an RBAC matrix to ensure users received access based on their specific roles.
+- Simulated a service ticket involving a user provided with an incorrect access level.
 
-Simulated a service ticket involving a user provisioned with an incorrect access level.
 ## Video Walkthrough
 In Progress
 
@@ -33,4 +33,3 @@ In Progress
 * Resolved a simulated access-provisioning ticket involving incorrect user permissions.
 * Documented the implementation process from start to finish.
 * Improved user organization and established a foundation for consistent identity and access management.
-
