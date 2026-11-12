@@ -32,4 +32,4 @@ In Progress
 * Established a structured departmental OU hierarchy.
 * Resolved a simulated access-provisioning ticket involving incorrect user permissions.
 * Documented the implementation process from start to finish.
-* Improved user organization and established a foundation for consistent identity and access management.
+* Improved the organization of the users and established a foundation for consistent identity and access management.
