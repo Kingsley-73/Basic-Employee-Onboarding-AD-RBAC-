@@ -10,7 +10,7 @@
 - Simulated a service ticket involving a user provided with an incorrect access level.
 
 ## Video Walkthrough
-In Progress
+Loom: (https://www.loom.com/share/0408f6e3c0b3489c88a127d006cfaa8b)
 
 ## Tools Used
 * Windows Server
