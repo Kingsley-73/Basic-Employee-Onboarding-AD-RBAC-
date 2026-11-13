@@ -1,6 +1,6 @@
-1. Jane Cooper user identity is in the Operations Organizational Unit
-2. I found that Jane was in Operations OU, but she is supposed to be in the HR OU
-3. Jane Cooper is currently a member of Operations-user. She should be a member of: HR
+1. Jane Cooper's user account was located in the Operations Organizational Unit (OU).
+2. The account's current OU placement did not align with Jane Cooper's designated department. The account was expected to reside in the HR OU.
+3. Jane Cooper was a member of Operations-Users. Based on the expected departmental assignment, her membership should be aligned with HR-Users.
 
 Ticket number: NMG-0047
 Affected user: Jane Cooper (jcooper@NMG.com)
