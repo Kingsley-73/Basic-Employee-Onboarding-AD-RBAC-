@@ -6,7 +6,7 @@ Ticket number: NMG-0047
 Affected user: Jane Cooper (jcooper@NMG.com)
 Issue reported: Unable to access HR shared resources. Desktop policies and mapped drives differ from teammates.
 
-Root cause:After investigation, It came to light that Jane Cooper was under the wrong Organizational Unit of Operations-Users instead of HR-Users.
+Root cause: After investigation, It came to light that Jane Cooper was under the wrong Organizational Unit of Operations-Users instead of HR-Users.
 
 Fix applied: After discovering the root cause, the appropriate fix was to move Jane Cooper to the right and original department she belonged "HR".
 
